@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+  <nav class="navbar">
+<div class="logos">
+    <li><img src="images/logo (2).png" alt="" height="50px"></li>
+    <li> <a href="#" class="logo">Sumaiya's Collection</a></li>
+</div>
+   
+   <div class="middle-nav-icom">
+    <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+   </div>
+    <div class="nav-icons">
+      <a href="#"><i class="fas fa-search"></i></a>
+      <a href="#"><i class="fas fa-shopping-cart"></i></a>
+      <span class="menu-toggle"><i class="fas fa-bars"></i></span>
+    </div>
+  </nav>
+
+  <script>
+    // Mobile Menu Toggle
+    document.querySelector(".menu-toggle").addEventListener("click", function() {
+      document.querySelector(".nav-links").classList.toggle("show");
+    });
+  </script>
+
+    <div class="hero">
+        <div class="hero-content">
+            <h1>Discover Your Perfect Dress</h1>
+            <p>Trendy. Elegant. Affordable. Shop the latest styles now!</p>
+            <a href="#shop" class="btn">Shop Now</a>
+        </div>
+    </div>
+
+    <!-- about us start -->
+    <section id="about">
+        <div class="about-container">
+          <div class="about-content">
+            <h2>About Us</h2>
+            <p>
+              Welcome to our online dress boutique, where fashion meets elegance.
+              We believe every woman deserves to feel confident and beautiful in her
+              own style.
+            </p>
+            <p>
+              Founded with a passion for quality and innovation, our collection
+              features a blend of contemporary designs and timeless classics.
+            </p>
+          </div>
+          <div class="about-image">
+            <img
+              src="images/about-us-image.jpg"
+              alt="About our business"
+            />
+          </div>
+        </div>
+      </section>
+     <!-- about us end -->
+
+     <!-- shop catagories start -->
+     <section id="categories">
+        <h2>Shop Categories</h2>
+        <div class="categories-container">
+          <!-- Category 1 -->
+          <div class="category-card">
+            <img class="category-image" src="images/casual-image.png" alt="Casual Dresses">
+            <div class="category-content">
+              <h3>Casual Dresses</h3>
+              <p>Everyday styles for effortless comfort.</p>
+            </div>
+          </div>
+          <!-- Category 2 -->
+          <div class="category-card">
+            <img class="category-image" src="images/party-wear-img.png" alt="Party Wear">
+            <div class="category-content">
+              <h3>Party Wear</h3>
+              <p>Make a statement at every celebration.</p>
+            </div>
+          </div>
+          <!-- Category 3 -->
+          <div class="category-card">
+            <img class="category-image" src="images/tra-img.png" alt="Traditional Dresses">
+            <div class="category-content">
+              <h3>Traditional Dresses</h3>
+              <p>Embrace your heritage with elegance.</p>
+            </div>
+          </div>
+          <!-- Category 4 -->
+          <div class="category-card">
+            <img class="category-image" src="images/formal.img.png" alt="Formal Dresses">
+            <div class="category-content">
+              <h3>Formal Dresses</h3>
+              <p>Perfect attire for sophisticated events.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- shop catagories end -->
+
+
+       <!-- Featured Products Section -->
+  <section id="featured">
+    <h2>Featured Products</h2>
+    <div class="products-container">
+      <!-- Product 1 -->
+      <div class="product-card">
+        <img class="product-image" src="images/elegant-gown-img.png" alt="Elegant Evening Gown">
+        <div class="product-details">
+          <h3>Elegant Evening Gown</h3>
+          <p>Exquisite design perfect for any special occasion.</p>
+          <p class="product-price">$120</p>
+          <a href="#shop" class="btn">Buy Now</a>
+        </div>
+      </div>
+      <!-- Product 2 -->
+      <div class="product-card">
+        <img class="product-image" src="images/summer-dress-img.png" alt="Casual Summer Dress">
+        <div class="product-details">
+          <h3>Casual Summer Dress</h3>
+          <p>Lightweight and comfortable for everyday wear.</p>
+          <p class="product-price">$80</p>
+          <a href="#shop" class="btn">Buy Now</a>
+        </div>
+      </div>
+      <!-- Product 3 -->
+      <div class="product-card">
+        <img class="product-image" src="images/coctail.png" alt="Modern Cocktail Dress">
+        <div class="product-details">
+          <h3>Modern Cocktail Dress</h3>
+          <p>Stand out in style with this modern masterpiece.</p>
+          <p class="product-price">$150</p>
+          <a href="#shop" class="btn">Buy Now</a>
+        </div>
+      </div>
+      <!-- Product 4 -->
+      <div class="product-card">
+        <img class="product-image" src="images/classic-dress.png" alt="Classic Red Dress">
+        <div class="product-details">
+          <h3>Classic Red Dress</h3>
+          <p>A timeless piece for an unforgettable look.</p>
+          <p class="product-price">$100</p>
+          <a href="#shop" class="btn">Buy Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="why-choose-us">
+    <h2>Why Choose Us?</h2>
+    <div class="reasons-container">
+      <!-- Reason 1 -->
+      <div class="reason-card">
+        <div class="reason-icon">⭐</div>
+        <div class="reason-title">Quality Craftsmanship</div>
+        <div class="reason-description">
+          Our dresses are made with premium materials and expert craftsmanship.
+        </div>
+      </div>
+      <!-- Reason 2 -->
+      <div class="reason-card">
+        <div class="reason-icon">💰</div>
+        <div class="reason-title">Affordable Prices</div>
+        <div class="reason-description">
+          Enjoy stunning designs without breaking the bank.
+        </div>
+      </div>
+      <!-- Reason 3 -->
+      <div class="reason-card">
+        <div class="reason-icon">🎨</div>
+        <div class="reason-title">Unique Designs</div>
+        <div class="reason-description">
+          Stand out with exclusive, trendsetting styles curated just for you.
+        </div>
+      </div>
+      <!-- Reason 4 -->
+      <div class="reason-card">
+        <div class="reason-icon">🤝</div>
+        <div class="reason-title">Excellent Service</div>
+        <div class="reason-description">
+          We prioritize customer satisfaction with dedicated support and timely delivery.
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- Customer Reviews Section -->
+    <section id="customer-reviews">
+        <h2>Customer Reviews</h2>
+        <div class="reviews-container">
+          <!-- Review Card 1 -->
+          <div class="review-card">
+            <div class="reviewer">
+              <img src="images/reviewer1.png" alt="Reviewer Jane Doe">
+              <div class="reviewer-name">sheikh sabiha</div>
+            </div>
+            <p class="review-text">
+              I absolutely love the quality and style of the dresses. They fit perfectly and make every occasion extra special!
+            </p>
+            <div class="review-rating">⭐⭐⭐⭐⭐</div>
+          </div>
+          <!-- Review Card 2 -->
+          <div class="review-card">
+            <div class="reviewer">
+              <img src="images/reviewer2.png" alt="Reviewer John Smith">
+              <div class="reviewer-name">Tanjin Nahar</div>
+            </div>
+            <p class="review-text">
+              The customer service was exceptional and the delivery was super fast. A truly impressive experience!
+            </p>
+            <div class="review-rating">⭐⭐⭐⭐</div>
+          </div>
+          <!-- Review Card 3 -->
+          <div class="review-card">
+            <div class="reviewer">
+              <img src="images/reviewer3,png.jpg" alt="Reviewer Emily Johnson">
+              <div class="reviewer-name">Sumaiya Akter</div>
+            </div>
+            <p class="review-text">
+              Amazing collection of dresses that never go out of style. I always find something unique and elegant!
+            </p>
+            <div class="review-rating">⭐⭐⭐⭐⭐</div>
+          </div>
+        </div>
+      </section>
+
+       <!-- Limited-Time Offers Section -->
+  <section id="limited-offers">
+    <div class="offers-content">
+      <h2>Limited-Time Offers!</h2>
+      <p>Don't miss out on exclusive discounts. Offer ends soon!</p>
+      <div class="countdown">
+        <div>
+          <span>12</span>
+          Days
+        </div>
+        <div>
+          <span>08</span>
+          Hours
+        </div>
+        <div>
+          <span>45</span>
+          Minutes
+        </div>
+        <div>
+          <span>30</span>
+          Seconds
+        </div>
+      </div>
+      <a href="#shop" class="btn">Shop Now</a>
+    </div>
+  </section>
+
+  <!-- How to Order Section -->
+  <section id="how-to-order">
+    <h2>How to Order</h2>
+    <div class="order-steps">
+      <!-- Step 1 -->
+      <div class="step">
+        <div class="step-icon">1</div>
+        <div class="step-content">
+          <h3>Browse Our Collection</h3>
+          <p>Explore our wide variety of dresses and select your favorite style.</p>
+        </div>
+      </div>
+      <!-- Step 2 -->
+      <div class="step">
+        <div class="step-icon">2</div>
+        <div class="step-content">
+          <h3>Select Your Dress</h3>
+          <p>Choose the dress you love and customize it if needed.</p>
+        </div>
+      </div>
+      <!-- Step 3 -->
+      <div class="step">
+        <div class="step-icon">3</div>
+        <div class="step-content">
+          <h3>Place Your Order</h3>
+          <p>Add your selected dress to the cart and proceed to checkout.</p>
+        </div>
+      </div>
+      <!-- Step 4 -->
+      <div class="step">
+        <div class="step-icon">4</div>
+        <div class="step-content">
+          <h3>Fast Delivery</h3>
+          <p>Sit back and relax while we deliver your dress right to your door.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Social Media & Community Section -->
+  <section id="social-media">
+    <h2>Join Our Community</h2>
+    <p>Follow us on social media for the latest updates, exclusive offers, and style inspiration!</p>
+    <div class="social-links">
+      <a href="#" class="facebook"  aria-label="Facebook">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="#" class="instagram" target="_blank" aria-label="Instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="#" class="twitter" target="_blank" aria-label="Twitter">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="#" class="tiktok" target="_blank" aria-label="TikTok">
+        <i class="fab fa-tiktok"></i>
+      </a>
+      <a href="#" class="linkedin" target="_blank" aria-label="LinkedIn">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </div>
+  </section>
+
+  <section id="contact-faq">
+    <h2>Contact Us & FAQs</h2>
+    <div class="contact-faq-container">
+      <!-- Contact Form -->
+      <div class="contact-form">
+        <h3>Get in Touch</h3>
+        <form action="#" method="post">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Your email" required />
+
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" placeholder="Subject" required />
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Your message" required></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+      <!-- FAQ Section -->
+      <div class="faq-section">
+        <h3>Frequently Asked Questions</h3>
+        <div class="faq-item">
+          <details>
+            <summary>What is your return policy?</summary>
+            <p>
+              We offer a 30-day return policy on all our dresses. If you're not satisfied, please contact us for further assistance.
+            </p>
+          </details>
+        </div>
+        <div class="faq-item">
+          <details>
+            <summary>How long does shipping take?</summary>
+            <p>
+              Shipping typically takes 3-7 business days depending on your location.
+            </p>
+          </details>
+        </div>
+        <div class="faq-item">
+          <details>
+            <summary>Do you offer customization?</summary>
+            <p>
+              Yes, we offer customization options on select dresses. Please contact us to learn more about available options.
+            </p>
+          </details>
+        </div>
+        <div class="faq-item">
+          <details>
+            <summary>How can I track my order?</summary>
+            <p>
+              After your order is shipped, we will provide you with a tracking number via email.
+            </p>
+          </details>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+   <!-- Footer Section -->
+   <footer>
+    <div class="footer-container">
+      <!-- Brand & Tagline -->
+      <div class="footer-column">
+        <div class="footer-logo">
+            <ul>
+                <li><img src="images/logo (2).png" alt="" height="50px"></li>
+                <li><span>Sumaiya collection</span></li>
+            </ul>
+        </div>
+        <p class="footer-tagline">Your fashion, your style!</p>
+      </div>
+      <!-- Quick Links -->
+      <div class="footer-column footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <!-- Contact Info -->
+      <div class="footer-contact">
+        <h4>Contact Us</h4>
+        <p><i class="fas fa-phone"></i> +880 1234 567 890</p>
+        <p><i class="fas fa-envelope"></i> support@dressify.com</p>
+      </div>
+      <!-- Social Media -->
+      <div class="footer-column footer-social">
+        <h4>Follow Us</h4>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-tiktok"></i></a>
+      </div>
+    </div>
+    <!-- Copyright -->
+    <div class="footer-bottom">
+      &copy; 2025 Dressify | All Rights Reserved
+    </div>
+  </footer>
+</body>
+</html>
